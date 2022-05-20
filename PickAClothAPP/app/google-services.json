@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "195604698979",
+    "firebase_url": "https://pickaclothapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pickaclothapp",
+    "storage_bucket": "pickaclothapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195604698979:android:bcf168d609b4b830d5a556",
+        "android_client_info": {
+          "package_name": "com.example.pickaclothapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195604698979-n29jg1kqd3rt86ama8tvrk2461g4r78k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4PbOYTNJuZkJP0XcfeNhuEWNp_pPBD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195604698979-n29jg1kqd3rt86ama8tvrk2461g4r78k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

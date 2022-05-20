@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentUno">
+
+    <TextView
+        android:id="@+id/textox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar producto"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/black"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textox2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+    <ImageView
+        android:id="@+id/camiseta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camiseta"
+        />
+    <ImageView
+        android:id="@+id/pantalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pantalones"
+            />
+    <ImageView
+        android:id="@+id/falda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/falda"
+        />
+
+   <ImageView
+       android:id="@+id/camisa"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/camisa"
+       />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/abrigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/abrigo" />
+        <ImageView
+            android:id="@+id/vestido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vestido2" />
+        <ImageView
+            android:id="@+id/zapatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zapatos" />
+        <ImageView
+            android:id="@+id/gorra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gorra" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

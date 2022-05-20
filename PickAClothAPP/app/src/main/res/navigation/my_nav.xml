@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragmentUno">
+
+    <fragment
+        android:id="@+id/fragmentUno"
+        android:name="com.example.pickaclothapp.FragmentUno"
+        android:label="fragment_uno"
+        tools:layout="@layout/fragment_uno" />
+    <fragment
+        android:id="@+id/fragmentDos"
+        android:name="com.example.pickaclothapp.FragmentDos"
+        android:label="fragment_dos"
+        tools:layout="@layout/fragment_dos" />
+    <fragment
+        android:id="@+id/fragmentTres"
+        android:name="com.example.pickaclothapp.FragmentTres"
+        android:label="fragment_tres"
+        tools:layout="@layout/fragment_tres" />
+    <fragment
+        android:id="@+id/fragmentCuatro"
+        android:name="com.example.pickaclothapp.FragmentCuatro"
+        android:label="fragment_cuatro"
+        tools:layout="@layout/fragment_cuatro" />
+
+    <fragment
+        android:id="@+id/fragmentProductos"
+        android:name="com.example.pickaclothapp.ProductosFragment"
+        android:label="fragment_productos"
+        tools:layout="@layout/fragment_productos" />
+
+</navigation>

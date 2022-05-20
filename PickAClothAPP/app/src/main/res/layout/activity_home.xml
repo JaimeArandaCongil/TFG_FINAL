@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/orangelight"
+    >
+
+    <ImageView
+        android:id="@+id/fondohome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="170dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ropa2"
+
+
+        />
+
+
+    <ImageView
+        android:id="@+id/logohome"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:src="@drawable/logoname"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linearuser"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="395dp"
+        >
+
+        <Button
+            android:id="@+id/botonusuario"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="@drawable/botones2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:text="USUARIO"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:src="@drawable/iconouser" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearadmin"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linearuser"
+        >
+
+        <Button
+            android:id="@+id/botonadministrador"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/botonusuario"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/botones2"
+            android:text="Administrador"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:src="@drawable/iconocarrito" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

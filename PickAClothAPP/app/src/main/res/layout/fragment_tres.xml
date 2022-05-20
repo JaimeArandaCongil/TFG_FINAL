@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentTres">
+
+    <TextView
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete sus datos"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/orange"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/perfila_imagen"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logocami"
+        android:layout_below="@id/encabezado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/perfila_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/perfila_imagen"
+        android:background="@drawable/textos"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="Ingrese su nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/perfila_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/perfila_nombre"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:hint="Ingrese su direccion"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/perfila_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/perfila_direccion"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:hint="Ingrese su teléfono"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/perfila_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/perfila_telefono"
+        android:background="@drawable/textos"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:hint="Ingrese su ciudad"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/perfila_boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/perfila_ciudad"
+        android:background="@drawable/botones2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:text="GUARDAR INFORMACIÓN"
+
+        />
+
+
+
+</RelativeLayout>
